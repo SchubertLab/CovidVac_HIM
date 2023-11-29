@@ -1,5 +1,5 @@
 # CovidVac - MVP
-In this study, we analyze the effect of multiple vaccinations (n>200) on the human immune response repertoire. This repository contains the single-cell analysis of T cell receptor (TCR), Gene expression, Surface Proteins (Antibody Captured), and dextramer staining across 5 donors (1 frequently vaccinated patients, 4 controls).
+In this study, we analyze the effect of multiple vaccinations (n>200) on the human immune response repertoire. This repository contains the single-cell analysis of T cell receptor (TCR), Gene expression, Surface Proteins (Antibody Captured), and dextramer staining across 6 donors (1 frequently vaccinated patients, 5 controls).
 
 ## Data
 - The raw sequencing data can be downloaded from GEO TODO link (Accession Number).
