@@ -19,12 +19,12 @@ conda env create -f requirements.yml
 ```
 Following, the notebooks must be run (ideally in this order). Note, that there are issues with reproducing UMAPs across different machines, even when the same seeds and package versions are used. Results might therefore look slightly different. To fully reproduce the paper results, use the annotated data.
 
-To separate multiple sequencing runs from the cellranger output:
+To separate multiple sequencing runs from the cellranger output in the folder `./analysis/mixed_runs/`:
 - `01_1_mixed_runs_preprocessing`
 - `01_2_mixed_runs_preprocessing`
 - `01_2_mixed_runs_preprocessing`
 
-To annotate the data:
+To annotate the data in the folder `./analysis/mvp/`:
 - `02_mvp_annotation`
 
 To generate the paper results (if you use the annotated data directly you can start at this point):
