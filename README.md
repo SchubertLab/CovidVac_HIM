@@ -4,7 +4,7 @@ In this study, we analyze the effect of multiple vaccinations (n>200) on the hum
 ## Data
 - The raw sequencing data can be downloaded from GEO TODO link (Accession Number).
 - The cellranger output can be downloaded from the same repository and should be stored as `./data/20231017/GEX/gex_mixed_run_{1-3}_feature_bc_matrics.h5` and `./data/20231017/VDJ/vdj_mixed_run_{1-3}_filtered_contigs.csv`
-- The processed and annotated data can be downloaded from Zenodo (doi: ) and stored as `./data/mvp/02_mvp_annotated_cd4.h5ad` an `./data/mvp/02_mvp_annotated_cd8.h5ad` (entry point notebooks 03)
+- The processed and annotated data can be downloaded from Zenodo (10.5281/zenodo.10301388) and stored as `./data/mvp/02_mvp_annotated_cd4.h5ad` an `./data/mvp/02_mvp_annotated_cd8.h5ad` (entry point notebooks 03)
 
 Additionally, we use the following external resources (not provided by us, store in `./data/scores/`):
 - Genes for various T cell scores by Szabo et al. (Nature Communications, 2019) (https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-12464-3/MediaObjects/41467_2019_12464_MOESM7_ESM.xlsx)
