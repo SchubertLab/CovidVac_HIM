@@ -127,7 +127,7 @@ def add_tc_scores(adata):
     :param adata: AnnData objects, contains genes listed in markers in adata.X
     :return: results in adata.obs[name] for all markers
     """
-    tcell_signatures = pd.read_excel('../../data/41467_2019_12464_MOESM7_ESM.xlsx', skiprows=1)
+    tcell_signatures = pd.read_excel('../../data/scores/41467_2019_12464_MOESM7_ESM.xlsx', skiprows=1)
     for score in tcell_signatures.columns:
         add_score(adata, tcell_signatures[score].values, f'{score}_score')
 
