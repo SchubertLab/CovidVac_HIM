@@ -2,7 +2,7 @@
 In this study, we analyze the effect of multiple vaccinations (n>200) on the human immune response repertoire. This repository contains the single-cell analysis of T cell receptor (TCR), Gene expression, Surface Proteins (Antibody Captured), and dextramer staining across 6 donors (1 frequently vaccinated patients, 5 controls).
 
 ## Data
-- The raw sequencing data can be downloaded from GEO TODO link (Accession Number).
+- The raw sequencing data can be downloaded from GEO GSE249998 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE249998).
 - The cellranger output can be downloaded from the same repository and should be stored as `./data/20231017/GEX/gex_mixed_run_{1-3}_feature_bc_matrics.h5` and `./data/20231017/VDJ/vdj_mixed_run_{1-3}_filtered_contigs.csv`
 - The processed and annotated data can be downloaded from Zenodo (10.5281/zenodo.10301388) and stored as `./data/him/02_him_annotated_cd4.h5ad` an `./data/him/02_him_annotated_cd8.h5ad` (entry point notebooks 03)
 
