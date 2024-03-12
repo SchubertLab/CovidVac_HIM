@@ -36,6 +36,11 @@ To generate the paper results (if you use the annotated data directly you can st
 If you refer to this work, please consider citing the following paper:
 
 ```
-@article{
+@article{kocher2024adaptive,
+  title={Adaptive immune responses are larger and functionally preserved in a hypervaccinated individual},
+  author={Kocher, Katharina and Moosmann, Carolin and Drost, Felix and Sch{\"u}lein, Christine and Irrgang, Pascal and Steininger, Philipp and Zhong, Jahn and Tr{\"a}ger, Johannes and Spriewald, Bernd and Bock, Christoph and others},
+  journal={The Lancet. Infectious diseases},
+  pages={S1473--3099},
+  year={2024}
 }
 ```
